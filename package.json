@@ -32,9 +32,6 @@
         "url": "https://github.com/Mehathab/simple-eslint-config/issues"
     },
     "homepage": "https://github.com/Mehathab/simple-eslint-config#readme",
-    "scripts": {
-        "build": "npm i"
-    },
     "keywords": [
         "@simple",
         "eslint-config",
