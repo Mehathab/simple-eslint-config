@@ -1,6 +1,6 @@
 {
     "name": "@simple-node-config/eslint",
-    "version": "1.0.0-beta.1",
+    "version": "1.0.0",
     "description": "A simple eslint config based on AirBnb style guide and Prettier code format rules",
     "main": ".eslintrc",
     "repository": {
