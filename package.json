@@ -1,5 +1,5 @@
 {
-    "name": "@simple/eslint-config",
+    "name": "@simple-node-config/eslint",
     "version": "1.0.0-beta.1",
     "description": "A simple eslint config based on AirBnb style guide and Prettier code format rules",
     "main": ".eslintrc",
@@ -9,7 +9,12 @@
     },
     "author": "Mehathab Shaik",
     "license": "MIT",
-    "private": false,
+    "files": [
+        "eslintrc.js, prettierrc.js"
+    ],
+    "engines": {
+        "node": ">=8.3.0"
+    },
     "dependencies": {
         "eslint": "^7.11.0",
         "eslint-config-airbnb": "^18.2.0",
@@ -28,7 +33,7 @@
     },
     "homepage": "https://github.com/Mehathab/simple-eslint-config#readme",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "npm i"
     },
     "keywords": [
         "@simple",
