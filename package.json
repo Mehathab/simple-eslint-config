@@ -1,17 +1,14 @@
 {
     "name": "@simple-node-config/eslint",
-    "version": "1.0.1",
+    "version": "1.0.2-beta",
     "description": "A simple eslint config based on AirBnb style guide and Prettier code format rules.",
-    "main": ".eslintrc",
+    "main": "index.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Mehathab/simple-eslint-config.git"
     },
     "author": "Mehathab Shaik",
     "license": "MIT",
-    "files": [
-        "eslintrc.js, prettierrc.js"
-    ],
     "engines": {
         "node": ">=8.3.0"
     },
